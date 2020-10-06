@@ -15,7 +15,7 @@ while True:
   filename = input()
   if os.path.exists("Programs/{}".format(filename)):
     clear()
-    exec("Programs/{}".format(filename))
+    exec(open("Programs/{}".format(filename)).read())
   else:
     print("\033[1;91m", "File not found!", "\033[0;0m")
     time.sleep(2)
