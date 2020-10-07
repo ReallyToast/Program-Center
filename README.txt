@@ -2,3 +2,5 @@ This program runs python files within the "Programs" folder so you don't have to
 
 To test, you can type in "Example.py" on startup
 Feel free to remove Example.py
+
+You can also do directories like "/Programs/[Folder Name]/[Program]"
